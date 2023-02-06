@@ -7,7 +7,8 @@
     "prebuild": "rimraf ./dist && npm run create-manifest && npm run copy-images",
     "create-manifest": "ts-node ./tools/create-manifest",
     "copy-images": "shx cp -R ./images ./dist",
-    "build": "tsc"
+    "build": "tsc",
+    "start": "tsc --watch"
   },
   "repository": {
     "type": "git",
