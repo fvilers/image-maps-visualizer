@@ -4,7 +4,8 @@
   "description": "A Chrome(ium) extension to visualize image maps",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prebuild": "rimraf ./dist",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,15 @@
   "bugs": {
     "url": "https://github.com/fvilers/image-maps-visualizer/issues"
   },
-  "homepage": "https://github.com/fvilers/image-maps-visualizer#readme"
+  "homepage": "https://github.com/fvilers/image-maps-visualizer#readme",
+  "devDependencies": {
+    "@tsconfig/node18": "^1.0.1",
+    "@types/node": "^18.11.19",
+    "chrome-types": "^0.1.170",
+    "rimraf": "^4.1.2",
+    "typescript": "^4.9.5"
+  },
+  "engines": {
+    "node": "^18"
+  }
 }
