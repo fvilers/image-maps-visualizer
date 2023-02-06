@@ -1,0 +1,24 @@
+{
+  "name": "image-maps-visualizer",
+  "version": "0.0.0",
+  "description": "A Chrome(ium) extension to visualize image maps",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fvilers/image-maps-visualizer.git"
+  },
+  "keywords": [
+    "chrome-extension",
+    "chrome",
+    "image-map"
+  ],
+  "author": "Fabian Vilers <fabian.vilers@dev-one.com> (https://www.dev-one.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fvilers/image-maps-visualizer/issues"
+  },
+  "homepage": "https://github.com/fvilers/image-maps-visualizer#readme"
+}
